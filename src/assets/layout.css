@@ -1,0 +1,55 @@
+#root {
+    height: 100%;
+    background-color: #f0f2f5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ant-layout-sider .logo {
+    height: 32px;
+    margin: 16px;
+    font-size: 2em;
+    font-weight: 600;
+    position: relative;
+    border-left: 10px solid #1890ff;
+}
+
+.ant-layout-sider .logo .logo-top {
+    position: absolute;
+    font-size: 28px;
+    left: 5px;
+    top: -13px;
+}
+
+.ant-layout-sider .logo .logo-bottom {
+    position: absolute;
+    font-size: 14px;
+    left: 6px;
+    bottom: -6px;
+    letter-spacing: 2px;
+}
+
+.site-container {
+    margin: 24px 16px;
+}
+
+.site-page-header {
+    border: 1px solid rgb(235, 237, 240);
+}
+
+.site-layout-content {
+    min-height: 350px;
+    padding: 24px;
+    background: #fff;
+}
+
+.ant-select {
+    width: 200px;
+}
+
+.ant-page-header-heading-title {
+    border-left: 5px solid #1890ff;
+    padding-left: 10px;
+}
