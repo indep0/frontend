@@ -102,9 +102,11 @@ export default class HomePage extends Component {
                             <Card 
                                 size="small" 
                                 type="inner" 
-                                title={`${e.TipoInmueble} #${e.NumeroSIAB}`}
+                                title={`Tipo de inmueble: ${e.TipoInmueble} - Número SIAB: ${e.NumeroSIAB}`}
                             >
-                                <div>{e.Ubicacion}</div>
+                                <div>{`Ubicación: ${e.Ubicacion}`}</div>
+                                <div>{`Estado: ${e.EntidadFederativa}`}</div>
+                                <div>{`Superficie en Metros Cuadrados: ${e.SuperficieConstruccionEnM2.replace('M2.', '')}`}</div>
                             </Card>
                         </List.Item>
                         )}
