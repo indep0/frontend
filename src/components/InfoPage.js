@@ -17,19 +17,18 @@ export default class InfoPage extends Component {
                     </p>
                     <div>
                         <GithubOutlined />
-                        <a href="https://github.com/indep0/frontend" target="_blank">
+                        <a style={{marginLeft:5}} href="https://github.com/indep0/frontend" target="_blank">
                             @indep0/frontend
                         </a>
                     </div>
                     <div>
                         <GithubOutlined />
-                        <a href="https://github.com/indep0/backend" target="_blank">
+                        <a style={{marginLeft:5}} href="https://github.com/indep0/backend" target="_blank">
                             @indep0/backend
                         </a>
                     </div>
                 </div>
             </Fragment>
-            
         );
     };
 }

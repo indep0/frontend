@@ -1,6 +1,6 @@
 import { Component, Fragment } from 'react';
 import { PageHeader } from 'antd';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Label } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 import axios from 'axios';
 
@@ -62,8 +62,9 @@ export default class GraphPage extends Component {
                     title="Ve gráfica de registros"
                 />
                 <div className="site-container">
-                <BarChart
-                        width={600}
+                    <BarChart
+                        className="site-page-graph"
+                        width={700}
                         height={300}
                         data={this.state.list}
                         margin={{

@@ -53,3 +53,8 @@
     border-left: 5px solid #1890ff;
     padding-left: 10px;
 }
+
+.site-page-graph {
+    left: 50%;
+    transform: translateX(-50%);
+}
